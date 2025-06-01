@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Form Kontak</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h2>Form Kontak</h2>
+    <form action="process.php" method="POST">
+      <label for="nama">Nama:</label>
+      <input type="text" id="nama" name="nama" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="pesan">Pesan:</label>
+      <textarea id="pesan" name="pesan" rows="4" required></textarea>
+      
+
+      <button class="glow">Kirim Pesan</button>
+    </form>
+  </div>
+</body>
+</html>
